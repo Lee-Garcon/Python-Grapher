@@ -1,9 +1,6 @@
 import Plot
 import sys
 
-# Prompt
-#print('Welcome to PyGraCalc, Python\'s first graphing calculator written by')
-#print('a minor! Please support me on PayPal ;)\n')
 print('Enter the dimensions of Graph\nFormat: (w, h)')
 dimensions = [int(c) for c in input('> ').replace('(', '').replace(')', '').replace(' ','').split(',')]
 
